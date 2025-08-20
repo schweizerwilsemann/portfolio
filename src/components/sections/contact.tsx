@@ -32,18 +32,17 @@ const ContactSection = () => {
           <CardHeader>
             <CardTitle className="text-4xl">Contact Form</CardTitle>
             <CardDescription>
-              Please contact me directly at{" "}
-              <a
-                target="_blank"
-                href={`mailto:${config.email}`}
-                className="text-gray-200 cursor-can-hover rounded-lg"
-              >
-                {config.email.replace(/@/g, "(at)")}
-              </a>{" "}
-              or drop your info here.
+              Contact me directly at <span className="font-bold text-white">khoa.qianyinga@gmail.com</span>
+              <br />
+              <br />
+
+              This form is 
+              <span className="text-green-500"> only for design purpose</span>. 
+              Do not submit any <span className="text-green-500">sensitive information</span>.
+
             </CardDescription>
           </CardHeader>
-          <CardContent>
+          <CardContent>Please
             <ContactForm />
           </CardContent>
         </Card>

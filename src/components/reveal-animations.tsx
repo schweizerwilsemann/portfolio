@@ -52,7 +52,7 @@ interface BoxRevealProps {
   delay?: number;
   once?: boolean;
 }
-export const BoxReveal = ({
+export const  BoxReveal = ({
   children,
   width = "fit-content",
   boxColor,

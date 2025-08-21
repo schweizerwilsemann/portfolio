@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="480" viewBox="0 0 850 480">
+  <!-- All Definitions -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#21262d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1f26;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#58a6ff"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="850" height="480" fill="url(#backgroundGradient)" rx="20"/>
+  
+  <!-- Blog Decorative Elements -->
+  <g opacity="0.1">
+    <text x="80" y="70" fill="#58a6ff" font-family="Arial, sans-serif" font-size="20">📝</text>
+    <text x="750" y="90" fill="#61dafb" font-family="Arial, sans-serif" font-size="18">✍️</text>
+    <text x="120" y="420" fill="#47d764" font-family="Arial, sans-serif" font-size="16">📖</text>
+    <text x="720" y="440" fill="#f1e05a" font-family="Arial, sans-serif" font-size="14">💭</text>
+  </g>
+  
+  <!-- Title Section -->
+  <g>
+    <text x="425" y="45" text-anchor="middle" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="30" font-weight="bold">
+      Personal Blog - MERN Stack
+    </text>
+    <text x="425" y="70" text-anchor="middle" fill="#58a6ff" font-family="Arial, sans-serif" font-size="16">
+      Full-Stack Blog Platform
+    </text>
+    <text x="425" y="90" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="12">
+      schweizerwilsemann/Personal-Blog
+    </text>
+  </g>
+  
+  <!-- MERN Stack Overview -->
+  <g>
+    <rect x="320" y="110" width="210" height="50" fill="rgba(56, 139, 253, 0.1)" stroke="#58a6ff" stroke-width="2" rx="25"/>
+    <text x="425" y="125" text-anchor="middle" fill="#58a6ff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+      MERN STACK
+    </text>
+    <text x="425" y="145" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="12">
+      MongoDB • Express • React • Node.js
+    </text>
+  </g>
+  
+  <!-- Frontend Section - React -->
+  <g>
+    <rect x="50" y="180" width="320" height="120" fill="rgba(30, 41, 59, 0.8)" stroke="#61dafb" stroke-width="2" rx="12"/>
+    <text x="210" y="205" text-anchor="middle" fill="#61dafb" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+      Frontend - React
+    </text>
+    
+    <!-- React Logo -->
+    <g transform="translate(120, 220)">
+      <circle cx="35" cy="35" r="30" fill="none" stroke="#61dafb" stroke-width="2"/>
+      <ellipse cx="35" cy="35" rx="12" ry="30" fill="none" stroke="#61dafb" stroke-width="2" transform="rotate(-30 35 35)"/>
+      <ellipse cx="35" cy="35" rx="12" ry="30" fill="none" stroke="#61dafb" stroke-width="2" transform="rotate(30 35 35)"/>
+      <circle cx="35" cy="35" r="4" fill="#61dafb"/>
+      <text x="35" y="85" text-anchor="middle" fill="#61dafb" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+        React.js
+      </text>
+    </g>
+    
+    <!-- UI Components -->
+    <g transform="translate(240, 230)">
+      <rect x="5" y="5" width="60" height="40" fill="none" stroke="#61dafb" stroke-width="1.5" rx="5"/>
+      <rect x="10" y="10" width="20" height="8" fill="#61dafb" opacity="0.6" rx="2"/>
+      <rect x="35" y="10" width="20" height="8" fill="#61dafb" opacity="0.4" rx="2"/>
+      <rect x="10" y="22" width="45" height="6" fill="#61dafb" opacity="0.3" rx="1"/>
+      <rect x="10" y="32" width="35" height="6" fill="#61dafb" opacity="0.3" rx="1"/>
+      <text x="35" y="75" text-anchor="middle" fill="#61dafb" font-family="Arial, sans-serif" font-size="12">
+        Components
+      </text>
+    </g>
+  </g>
+  
+  <!-- Backend Section - Express + Node -->
+  <g>
+    <rect x="480" y="180" width="320" height="120" fill="rgba(30, 41, 59, 0.8)" stroke="#68cc68" stroke-width="2" rx="12"/>
+    <text x="640" y="205" text-anchor="middle" fill="#68cc68" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+      Backend - Express + Node.js
+    </text>
+    
+    <!-- Node.js Logo -->
+    <g transform="translate(520, 220)">
+      <path d="M 35 5 L 55 17 L 55 42 L 35 54 L 15 42 L 15 17 Z" fill="#68cc68"/>
+      <path d="M 35 10 L 50 18 L 50 40 L 35 48 L 20 40 L 20 18 Z" fill="#333333"/>
+      <text x="35" y="85" text-anchor="middle" fill="#68cc68" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+        Node.js
+      </text>
+    </g>
+    
+    <!-- Express.js -->
+    <g transform="translate(620, 235)">
+      <rect x="0" y="5" width="80" height="30" fill="none" stroke="#f1f1f1" stroke-width="1.5" rx="5"/>
+      <text x="40" y="25" text-anchor="middle" fill="#f1f1f1" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+        Express
+      </text>
+      <text x="40" y="75" text-anchor="middle" fill="#f1f1f1" font-family="Arial, sans-serif" font-size="12">
+        Web Framework
+      </text>
+    </g>
+    
+    <!-- API Routes -->
+    <g transform="translate(720, 230)">
+      <circle cx="15" cy="15" r="8" fill="#68cc68"/>
+      <line x1="25" y1="15" x2="45" y2="15" stroke="#68cc68" stroke-width="2"/>
+      <circle cx="50" cy="15" r="3" fill="#68cc68"/>
+      <circle cx="15" cy="35" r="8" fill="#68cc68"/>
+      <line x1="25" y1="35" x2="45" y2="35" stroke="#68cc68" stroke-width="2"/>
+      <circle cx="50" cy="35" r="3" fill="#68cc68"/>
+      <text x="32.5" y="75" text-anchor="middle" fill="#68cc68" font-family="Arial, sans-serif" font-size="11">
+        API Routes
+      </text>
+    </g>
+  </g>
+  
+  <!-- Database Section - MongoDB -->
+  <g>
+    <rect x="265" y="330" width="320" height="100" fill="rgba(30, 41, 59, 0.8)" stroke="#47d764" stroke-width="2" rx="12"/>
+    <text x="425" y="355" text-anchor="middle" fill="#47d764" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+      Database - MongoDB
+    </text>
+    
+    <!-- MongoDB Leaf Logo -->
+    <g transform="translate(360, 365)">
+      <path d="M 30 5 C 35 5 40 10 45 20 C 48 30 45 40 40 45 C 35 50 30 52 28 52 C 26 50 21 45 16 40 C 11 30 14 20 17 15 C 20 10 25 5 30 5 Z" fill="#47d764"/>
+      <path d="M 30 52 C 29 52 28 55 28 58 C 28 60 29 62 30 62 C 31 62 32 60 32 58 C 32 55 31 52 30 52 Z" fill="#3d5e3d"/>
+      <path d="M 29 15 C 28 25 29 35 30 45 C 31 35 32 25 31 15" fill="#3d5e3d"/>
+      <text x="30" y="85" text-anchor="middle" fill="#47d764" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+        MongoDB
+      </text>
+      <text x="30" y="100" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="10">
+        NoSQL Database
+      </text>
+    </g>
+    
+    <!-- Database Collections -->
+    <g transform="translate(480, 370)">
+      <rect x="0" y="0" width="60" height="12" fill="#47d764" opacity="0.6" rx="6"/>
+      <rect x="0" y="16" width="55" height="12" fill="#47d764" opacity="0.5" rx="6"/>
+      <rect x="0" y="32" width="50" height="12" fill="#47d764" opacity="0.4" rx="6"/>
+      <text x="30" y="70" text-anchor="middle" fill="#47d764" font-family="Arial, sans-serif" font-size="11">
+        Collections
+      </text>
+    </g>
+  </g>
+  
+  <!-- Data Flow Arrows -->
+  <g>
+    <!-- React to Express -->
+    <line x1="370" y1="240" x2="480" y2="240" stroke="#58a6ff" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <text x="425" y="235" text-anchor="middle" fill="#58a6ff" font-family="Arial, sans-serif" font-size="11">
+      HTTP Requests
+    </text>
+    
+    <!-- Express to MongoDB -->
+    <line x1="640" y1="300" x2="500" y2="330" stroke="#58a6ff" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <text x="570" y="310" text-anchor="middle" fill="#58a6ff" font-family="Arial, sans-serif" font-size="11">
+      Database Operations
+    </text>
+    
+    <!-- MongoDB to React (Data Flow) -->
+    <line x1="350" y1="330" x2="210" y2="300" stroke="#47d764" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+    <text x="280" y="310" text-anchor="middle" fill="#47d764" font-family="Arial, sans-serif" font-size="10">
+      Blog Data
+    </text>
+  </g>
+  
+  <!-- Blog Features -->
+  <g>
+    <text x="425" y="455" text-anchor="middle" fill="#58a6ff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+      📰 Blog Posts • 👤 User Authentication • 💬 Comments • 🔍 Search • 📱 Responsive Design
+    </text>
+    <text x="425" y="470" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="11">
+      Component-based UI • RESTful API • Document Database • Server-side Rendering
+    </text>
+  </g>
+  
+  <!-- Animated Connection Points -->
+  <circle cx="425" cy="240" r="3" fill="#58a6ff" opacity="0.6">
+    <animate attributeName="r" values="3;8;3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="425" cy="380" r="2" fill="#47d764" opacity="0.5">
+    <animate attributeName="r" values="2;6;2" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

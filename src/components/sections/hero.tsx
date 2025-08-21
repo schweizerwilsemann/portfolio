@@ -76,7 +76,7 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    AI Enthusiast
+                    Major: Information Technology - Current GPA: 3.4/4
                   </p>
                 </BlurIn>
               </div>
@@ -108,8 +108,9 @@ const HeroSection = () => {
                       </Link>
                     </TooltipTrigger>
                     <TooltipContent side="bottom">
-                      <p>pls 🥹 🙏</p>
-                    </TooltipContent>
+                      <p>feel free to reach out to me</p>
+
+                    </TooltipContent> 
                   </Tooltip>
                   <Link
                     href={config.social.github}

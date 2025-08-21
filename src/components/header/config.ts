@@ -1,11 +1,11 @@
 import { Link } from "@/types";
 
 const links: Link[] = [
-  {
-    title: 'Home',
-    href: '/',
-    thumbnail: '/assets/nav-link-previews/landing.png'
-  },
+  // {
+  //   title: 'Home',
+  //   href: '/',
+  //   thumbnail: '/assets/nav-link-previews/landing.png'
+  // },
   {
     title: 'About',
     href: '/#about',
@@ -31,16 +31,16 @@ const links: Link[] = [
   //   href: '/testimonials',
   //   thumbnail: '/assets/nav-link-previews/testimonials.png'
   // },
-  {
-    title: 'Blogs',
-    href: '/blogs',
-    thumbnail: '/assets/nav-link-previews/blog.png',
-  },
-  {
-    title: 'Contact',
-    href: '/#contact',
-    thumbnail: '/assets/nav-link-previews/contact.png'
-  }
+  // {
+  //   title: 'Blogs',
+  //   href: '/blogs',
+  //   thumbnail: '/assets/nav-link-previews/blog.png',
+  // },
+  // {
+  //   title: 'Contact',
+  //   href: '/#contact',
+  //   thumbnail: '/assets/nav-link-previews/contact.png'
+  // }
 ];
 
 export { links };

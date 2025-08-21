@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="480" viewBox="0 0 850 480">
+  <!-- All Definitions - Consolidated -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Arrow marker moved to top -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f59e0b"/>
+    </marker>
+  </defs>
+  
+  <rect width="850" height="480" fill="url(#backgroundGradient)" rx="20"/>
+  
+  <!-- Title -->
+  <text x="425" y="40" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="bold">
+    Media Depart - Tech Stack
+  </text>
+  <text x="425" y="65" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="14">
+    Real-time Media Platform with Live Communication
+  </text>
+  
+  <!-- Frontend Section -->
+  <g>
+    <rect x="50" y="90" width="350" height="130" fill="#1e293b" stroke="#00d8ff" stroke-width="2" rx="12" opacity="0.9"/>
+    <text x="225" y="115" text-anchor="middle" fill="#00d8ff" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+      Frontend &amp; Framework
+    </text>
+    
+    <!-- Next.js Logo -->
+    <g transform="translate(80, 130)">
+      <circle cx="35" cy="35" r="30" fill="#000000" stroke="#ffffff" stroke-width="2"/>
+      <text x="35" y="42" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+        N
+      </text>
+      <text x="35" y="85" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="13" font-weight="bold">
+        Next.js
+      </text>
+    </g>
+    
+    <!-- React (part of Next.js) -->
+    <g transform="translate(180, 130)">
+      <circle cx="35" cy="35" r="28" fill="none" stroke="#61dafb" stroke-width="2"/>
+      <ellipse cx="35" cy="35" rx="12" ry="28" fill="none" stroke="#61dafb" stroke-width="2" transform="rotate(-30 35 35)"/>
+      <ellipse cx="35" cy="35" rx="12" ry="28" fill="none" stroke="#61dafb" stroke-width="2" transform="rotate(30 35 35)"/>
+      <circle cx="35" cy="35" r="4" fill="#61dafb"/>
+      <text x="35" y="85" text-anchor="middle" fill="#61dafb" font-family="Arial, sans-serif" font-size="13" font-weight="bold">
+        React
+      </text>
+    </g>
+    
+    <!-- TanStack Query -->
+    <g transform="translate(280, 130)">
+      <rect x="10" y="10" width="50" height="50" fill="#ff4154" rx="8"/>
+      <text x="35" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+        TQ
+      </text>
+      <text x="35" y="44" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8">
+        Query
+      </text>
+      <text x="35" y="85" text-anchor="middle" fill="#ff4154" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+        TanStack
+      </text>
+    </g>
+  </g>
+  
+  <!-- Backend Section -->
+  <g>
+    <rect x="450" y="90" width="350" height="130" fill="#1e293b" stroke="#10b981" stroke-width="2" rx="12" opacity="0.9"/>
+    <text x="625" y="115" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+      Backend &amp; API
+    </text>
+    
+    <!-- Next.js API Routes -->
+    <g transform="translate(480, 130)">
+      <rect x="10" y="10" width="50" height="50" fill="#000000" stroke="#10b981" stroke-width="2" rx="5"/>
+      <text x="35" y="30" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+        API
+      </text>
+      <text x="35" y="44" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="8">
+        Routes
+      </text>
+      <text x="35" y="85" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+        Next.js BE
+      </text>
+    </g>
+    
+    <!-- Socket.io -->
+    <g transform="translate(580, 130)">
+      <circle cx="35" cy="35" r="28" fill="#010101" stroke="#ffffff" stroke-width="1"/>
+      <circle cx="25" cy="25" r="8" fill="#ffffff"/>
+      <circle cx="45" cy="25" r="8" fill="#ffffff"/>
+      <circle cx="25" cy="45" r="8" fill="#ffffff"/>
+      <circle cx="45" cy="45" r="8" fill="#ffffff"/>
+      <text x="35" y="85" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+        Socket.io
+      </text>
+    </g>
+    
+    <!-- UploadThing -->
+    <g transform="translate(680, 130)">
+      <rect x="10" y="15" width="50" height="40" fill="#f97316" rx="6"/>
+      <polygon points="25,25 35,30 35,35 25,40 25,35 30,32 25,30" fill="white"/>
+      <text x="35" y="85" text-anchor="middle" fill="#f97316" font-family="Arial, sans-serif" font-size="11" font-weight="bold">
+        UploadThing
+      </text>
+    </g>
+  </g>
+  
+  <!-- Real-time Communication -->
+  <g>
+    <rect x="50" y="250" width="350" height="100" fill="#1e293b" stroke="#8b5cf6" stroke-width="2" rx="12" opacity="0.9"/>
+    <text x="225" y="275" text-anchor="middle" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+      Real-time Communication
+    </text>
+    
+    <!-- LiveKit -->
+    <g transform="translate(180, 285)">
+      <rect x="0" y="0" width="90" height="45" fill="#6366f1" rx="8"/>
+      <circle cx="20" cy="22" r="8" fill="white"/>
+      <circle cx="45" cy="22" r="8" fill="white"/>
+      <circle cx="70" cy="22" r="8" fill="white"/>
+      <text x="45" y="65" text-anchor="middle" fill="#6366f1" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+        LiveKit
+      </text>
+    </g>
+  </g>
+  
+  <!-- Database Section -->
+  <g>
+    <rect x="450" y="250" width="350" height="100" fill="#1e293b" stroke="#0ea5e9" stroke-width="2" rx="12" opacity="0.9"/>
+    <text x="625" y="275" text-anchor="middle" fill="#0ea5e9" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+      Database
+    </text>
+    
+    <!-- MySQL -->
+    <g transform="translate(580, 285)">
+      <rect x="0" y="15" width="90" height="30" fill="#00758f" rx="5"/>
+      <text x="45" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+        MySQL
+      </text>
+      <text x="45" y="65" text-anchor="middle" fill="#00758f" font-family="Arial, sans-serif" font-size="12">
+        Relational Database
+      </text>
+    </g>
+  </g>
+  
+  <!-- Architecture Flow -->
+  <g>
+    <text x="425" y="385" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+      Architecture Flow
+    </text>
+    
+    <!-- Flow arrows and connections -->
+    <line x1="225" y1="220" x2="225" y2="250" stroke="#00d8ff" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="625" y1="220" x2="625" y2="250" stroke="#10b981" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="400" y1="155" x2="450" y2="155" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Feature Highlights -->
+  <g>
+    <text x="425" y="425" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="14">
+      ⚡ Real-time Communication • 📁 File Upload • 🔄 State Management • 🎥 Live Video/Audio
+    </text>
+    <text x="425" y="450" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">
+      Full-stack Next.js • WebSocket Integration • Media Processing • Database Persistence
+    </text>
+  </g>
+  
+  <!-- Animated Connection Points -->
+  <circle cx="225" cy="235" r="3" fill="#00d8ff">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="625" cy="235" r="3" fill="#10b981">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="425" cy="155" r="3" fill="#f59e0b">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

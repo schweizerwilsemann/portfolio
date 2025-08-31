@@ -54,7 +54,7 @@ const config = {
   },
   social: {
     twitter: "https://x.com/schweizer_wilse",
-    linkedin: "https://www.linkedin.com/in/khoa-nguyen-02672a241/",
+    linkedin: "https://www.linkedin.com/in/khoa-nguyen-016280323/",
     facebook: "https://www.facebook.com/khoa.qianyinga",
     github: "https://github.com/schweizerwilsemann/",
     instagram: "https://www.instagram.com/_aohkcud/",
